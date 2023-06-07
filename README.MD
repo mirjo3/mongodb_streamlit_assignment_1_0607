@@ -10,4 +10,3 @@ Steps taken
 2. Created the base.py from the cleaned csv
 3. Created a new database on MongoDB, created .env with the new MONGO_URL and login credientals to connect to the database
 4. to_mongo.py to link and upload the cleaned data to MongoDB
-5. 
