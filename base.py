@@ -25,7 +25,10 @@ class Base:
         'dalc': 'workday_alcohol_consumption',
         'walc': 'weekend_alcohol_consumption'
         }, inplace=True)
+        self.df = self.df.rename_axis('', axis='rows').rename_axis('student_id', axis='columns')
 
+print('Renaming columns successful')
 if __name__ == '__main__':
     c = Base()
     c.df.to_csv('student_performance.csv')
+print('CSV successfully made')
