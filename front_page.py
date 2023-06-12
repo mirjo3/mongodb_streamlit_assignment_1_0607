@@ -10,6 +10,12 @@ st.subheader('Query')
 st.text('User can request information from the student performance database')
 
 '''
+Step one:
+
+Open terminal pattern
+
 How to start streamlit
+
 streamlit run front_page.py
+
 '''

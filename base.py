@@ -31,4 +31,5 @@ print('Renaming columns successful')
 if __name__ == '__main__':
     c = Base()
     c.df.to_csv('student_performance.csv')
+    
 print('CSV successfully made')
